@@ -1,0 +1,31 @@
+body{
+	text-align: center;
+	background: url("../img/hola.jpg");
+	background-size: cover;
+
+}
+img{
+	width: 400px;
+	height: 300px;
+	margin: 50px 50px 50px 50px;
+	padding: 20px;
+	border-radius: 100px 100px 300px 300px;
+		border: 1px dashed;
+		box-shadow:0px 0px 12px 2px blue;
+}
+p{
+	font-size: 22px;
+	color: yellow;
+	font-family:;
+}
+#env{
+	font-size: 20px;
+	background: red;
+	color: white;
+	border:none;
+}
+#ema{
+	width: 200px;
+	height: 20px;
+}
+

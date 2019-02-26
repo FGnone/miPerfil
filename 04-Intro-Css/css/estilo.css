@@ -1,0 +1,38 @@
+
+	h1{
+		text-shadow: 2em 2cm 5px  red ,1px 1px 10px yellow;
+		text-align: center;
+		font-size: 5em;
+	}
+
+
+
+
+
+	/*Propiedad bacgraund = fondo
+	porpiedad color= color de texto*/
+  p{
+	background:  black; 
+	color: white;
+	/*El borde necesita tres parametros*/
+	/*el grosor(px)el tipo y el color*/
+	border: 5px dashed;
+	border-top: 8px solid blue;
+	border-bottom: inset green;
+	border-right: double #65AC00 ;
+  /*  Los margenes sirven para dar espacio exterior
+    alos elemetos*/
+	margin: 50px 50px 0px 100px;
+	padding: 20px;
+	border-radius: 50px 0px 50px 0px;
+
+    }
+
+    
+
+    /*tambien sirve para imagenes*/
+    body{
+    	background-image: url("../img/Fondo.jpg");
+    	background-size: cover;
+    	
+    }

@@ -1,0 +1,25 @@
+
+
+document.getElementById("btn").addEventListener("click",miFuncion);
+
+
+let x=0;
+
+
+function	miFuncion(){
+
+	//console.log("algo");
+	let h1=document.getElementById("titulo");
+	x++;
+
+
+if (x%2==0) {} else 
+	h1.style.background="#9e9d24";
+
+}else{
+
+	h1.style.background="purple";
+
+}
+
+}
